@@ -1,0 +1,87 @@
+.header{
+  text-align: center;
+}
+.search{
+  width: 250px;
+  height: 30px;
+  border: 2px solid #A9A9A9;
+  border-radius: 12px;
+  outline: none;
+}
+.btnSearch{
+  outline: none;
+  font-size: 15px
+}
+.label-id{
+  padding: 5px 10px 5px 10px;
+  background-color: white;
+  color: red;
+  border: solid 2px #2ecc71;
+  border-radius: 5px;
+}
+
+.link-question{
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration-line: underline;
+  font-size: 18px;
+}
+
+.table-row{
+  padding-top: 10px;
+  margin-top: 10px;
+  border: solid 1px #1e347b;
+  background-color: #DEEBF7;
+  border-radius: 10px;
+}
+.answer{
+  padding: 10px;
+  margin-left: 0;
+}
+.comment{
+  width: 100%;
+}
+.btn-submit{
+  float: right;
+}
+.image, .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8 {
+  position: relative;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image:hover .image,.image1:hover .image,.image2:hover .image,.image3:hover .image,.image4:hover .image,.image5:hover .image,.image6:hover .image,.image7:hover .image,.image8:hover .image {
+  opacity: 0.3;
+}
+
+.image:hover .middle, .image1:hover .middle, .image2:hover .middle, .image3:hover .middle, .image4:hover .middle, .image5:hover .middle, .image6:hover .middle, .image7:hover .middle, .image8:hover .middle {
+  opacity: 1;
+}
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.label-content{
+  color: black;
+  font-size: 16px;
+}

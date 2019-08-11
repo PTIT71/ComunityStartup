@@ -174,9 +174,6 @@
         }
 
 
-
-       
-
         public  function getData()
         {
             if($this->result)

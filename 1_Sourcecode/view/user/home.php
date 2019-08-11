@@ -17,6 +17,17 @@
 				}
 			}	
 	?>
+	<?php
+   			if($dataName != NULL) 
+   			{
+    			foreach ($dataName as $value) 
+    			{
+	?>
+					 <tr><?php echo $value['name']?></tr>
+	<?php
+				}
+			}	
+	?>
 
 </body>
 </html>

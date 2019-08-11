@@ -1,0 +1,46 @@
+.header{
+  text-align: center;
+}
+.search{
+  width: 250px;
+  height: 30px;
+  border: 2px solid #A9A9A9;
+  border-radius: 12px;
+  outline: none;
+}
+.btnSearch{
+  outline: none;
+  font-size: 15px
+}
+.label-id{
+  padding: 5px 10px 5px 10px;
+  background-color: white;
+  color: red;
+  border: solid 2px #2ecc71;
+  border-radius: 5px;
+}
+
+.link-question{
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration-line: underline;
+  font-size: 18px;
+}
+
+.table-row{
+  padding-top: 10px;
+  margin-top: 10px;
+  border: solid 1px #1e347b;
+  background-color: #DEEBF7;
+  border-radius: 10px;
+}
+.answer{
+  padding: 10px;
+  margin-left: 0;
+}
+.comment{
+  width: 100%;
+}
+.btn-submit{
+  float: right;
+}

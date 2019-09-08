@@ -21,7 +21,7 @@
             }
             else
             {
-                echo"Ket noi DB thanh cong";
+               // echo"Ket noi DB thanh cong";
                 mysqli_set_charset($this->conn,'utf8');
             }
             return $this->conn;
